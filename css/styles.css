@@ -1,7 +1,9 @@
-.container {
+.container-fluid {
 	text-align: center;
 	margin-left: 0%;
 	width: 100%;
+	padding-right: 5%;
+	height: 100%;
 }
 
 .nav h1 {
@@ -19,9 +21,9 @@
 
 .nav {
 	background-color: maroon;
-	max-width: 300px;
-	min-width: 275px;
-	height: 100vh;
+	max-width: 32vh;
+	min-width: 15vh;
+	height: 100%;
 }
 
 .nav .profile {
@@ -30,7 +32,7 @@
 
 .nav img {
 	border-radius: 50%;
-	max-width: 200px;
+	max-width: 75%;
 	display: block;
 	margin: auto;
 	padding-top: 7%;
@@ -46,6 +48,7 @@
 .nav .nav-link {
 	color: white;
 	text-align: center;
+	font-size: large;
 }
 
 .nav .nav-link:hover {
@@ -70,15 +73,22 @@
 
 .nav .footer {
 	color: white;
-	padding: 50% 10% 10% 10%;
+	padding: 45% 10% 10% 10%;
 	font-size: small;
 	text-align: center;
 }
 
 .body {
-	padding-top: 5%;
+	padding-top: 3%;
 	padding-left: 2%;
 	text-align: left;
 	width: 100%;
 }
 
+.link-danger {
+	text-decoration: none;
+}
+
+.accordion {
+	max-width: 70vh;
+}
