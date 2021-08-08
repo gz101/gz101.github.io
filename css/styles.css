@@ -1,66 +1,84 @@
 .container {
+	text-align: center;
 	margin-left: 0%;
+	width: 100%;
 }
 
-h1 {
+.nav h1 {
+	padding-top: 3%;
 	margin-left: 5px;
+	color: white;
 }
 
-.small {
+.nav .small {
 	color: lightgray;
 	margin-left: 5px;
 	text-align: center;
+	padding-top: 3%;
 }
 
 .nav {
 	background-color: maroon;
-	max-width: 275px;
+	max-width: 300px;
+	min-width: 275px;
 	height: 100vh;
 }
 
-h1 {
-	color: white;
-}
-
-.profile {
+.nav .profile {
 	align-self: start;
 }
 
-img {
+.nav img {
 	border-radius: 50%;
 	max-width: 200px;
 	display: block;
 	margin: auto;
+	padding-top: 7%;
 }
 
-ul {
-	margin-left: 15%;
+.nav ul {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 20%;
 }
 
-.nav-link {
+.nav .nav-link {
 	color: white;
+	text-align: center;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
 	color: gray;
 }
 
-.logo {
+.nav .logo {
 	color: white;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
-.logo:hover {
+.nav .logo:hover {
 	color: gray;
 }
 
-.logo-contain {
+.nav .logo-contain {
 	width: 100%;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10%;
 }
 
-.break {
-	border: 0.75px solid white;
-	width: 80%;
-	margin: 10% auto 0 auto;
+.nav .footer {
+	color: white;
+	padding: 50% 10% 10% 10%;
+	font-size: small;
+	text-align: center;
 }
+
+.body {
+	padding-top: 5%;
+	padding-left: 2%;
+	text-align: left;
+	width: 100%;
+}
+
