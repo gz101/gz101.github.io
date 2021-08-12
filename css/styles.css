@@ -92,3 +92,17 @@
 .accordion {
 	max-width: 70vh;
 }
+
+@media screen and (max-width: 1000px) {
+	p, li, td {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+}
