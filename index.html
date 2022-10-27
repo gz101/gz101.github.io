@@ -80,6 +80,46 @@
                     <p>
                         My interests are in CS theory, algorithms, and mathematics.
                     </p>
+
+                    <h2>Interesting Projects</h2>
+                    <hr>
+                    <p>
+                        A collection of interesting projects I've done, either through courses I've taken or pet projects.
+                    </p>
+                    <ul>
+                        <li>
+                            <p><a href="assets/cs51.pdf" class="link-danger" target="_blank">Harvard CS 51: MiniML</a></p>
+                            <p>
+                                This project involves implementing a Turing-complete, metacircular interpreter for a subset of the OCaml programming language. 
+                                I have implemented both the substitution and dynamic environment models, along with several other extensions to the
+                                language: adding additional atomic types and operators, modifying the
+                                environment semantics to to manifest lexical scope, augmenting the syntax
+                                to allow for the curried function definition syntactic sugar, and including
+                                references and mutability to the language.
+                            </p>
+                        </li>
+                        <li>
+                            <p><a href="https://github.com/gz101/kafka-spark-ELK-pipeline/blob/main/README.md" class="link-danger">Harvard CS 88C: Big Data Streaming with the Kappa Architecture</a></p>
+                            <p>
+                                This project involved architecting and building a pipeline based on the Kappa Architecture, by Jay Kreps. 
+                                At a high level, raw data is ingested into a Kafka Broker, which acts as a messaging service for both producers and consumers. This Kafka service is supported by a Zookeeper instance.
+                            </p>
+                                I have chosen to use Spark’s Structured Streaming API for my pipeline for real-time data processing, as it allows for flexibility to deliver real-time streaming, as well as in micro-batches. 
+                                Spark reads data from a Kafka topic for incoming raw data, and once processed, the data is simultaneously written back into a separate outgoing Kafka topic for real-time analytics, as well as a PostgreSQL database for batch analytics.
+                            <p>
+                                My real-time views layer is implemented using the ELK stack, which consists of Logstash, Elasticsearch, and Kibana. 
+                                My batch views layer is implemented using the Python web framework Django, and the JavaScript visualization library, Flexmonster.
+                            </p>
+                        </li>
+                        <li>
+                            <p><a href="https://gz101h.shinyapps.io/sortingAlgos/" class="link-danger">Harvard MATH 151: Sorting Visualizer</a></p>
+                            <p>
+                                A sorting visualizer using the R Shiny framework as an introduction to sorting algorithms for students learning computer science. 
+                                Includes step-by-step visualizations for Selection Sort, Insertion Sort, Shell Sort, and Merge Sort.
+                            </p>
+                        </li>
+                    </ul>
+
                     <h2>How to get in touch with me</h2>
                     <hr>
                     <p>
@@ -97,7 +137,6 @@
                         >
                             Twitter
                         </a>!
-
                 </div>
             </div>
         </div>
