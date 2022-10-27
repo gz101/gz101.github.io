@@ -11348,3 +11348,7 @@ img {
 .logo:hover {
 	color: gray;
 }
+
+.profile-pic {
+  max-width: 200px;
+}
