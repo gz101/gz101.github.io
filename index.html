@@ -84,11 +84,40 @@
                     <h2>Interesting Projects</h2>
                     <hr>
                     <p>
-                        A collection of interesting projects I've done, either through courses I've taken or pet projects.
+                        A collection of interesting projects I've done, either through courses I've taken or pet projects. Since many of these are assignments from my studies, my code implementation is not included for public viewing.
                     </p>
                     <ul>
                         <li>
-                            <p><a href="assets/cs51.pdf" class="link-danger" target="_blank">Harvard CS 51: MiniML</a></p>
+                            <p><a href="assets/cs124-1.pdf" class="link-danger" target="_blank">CS 124: Random Minimum Spanning Trees</a></p>
+                            <p>
+                                This document contains the accompanying write-up to my implementation of a Minimum Spanning Tree (MST) algorithm for complete, undirected, and random graphs. 
+                                The goal of this experiment was to investigate how the average weight of the MST grows as a function of n. 
+                                The experiment was carried out on four different variations of the complete, undirected, and random graph.
+                            </p>
+                        </li>
+                        <li>
+                            <p><a href="assets/cs124-2.pdf" class="link-danger" target="_blank">CS 124: Strassen's Matrix Multiplication Crossover</a></p>
+                            <p>
+                                This document contains the accompanying write-up to my implementation of Strassen’s divide and combine matrix multiplication algorithm for n by n matrices. 
+                                The goal of this experiment was to determine the optimal crossover point at which the base case of the recursive Strassen’s algorithm is invoked. 
+                                Specifically, the base case uses the conventional method of matrix multiplication on the subproblems of 
+                                Strassen’s divide and combine strategy. In the context of this experiment, the optimal crossover point is 
+                                defined to be the matrix dimension size that allows Strassen’s algorithm to outperform the running time of 
+                                the conventional matrix multiplication method. This experiment includes both analytical and experimental 
+                                analysis when comparing the running times of both methods.
+                            </p>
+                        </li>
+                        <li>
+                            <p><a href="assets/cs124-3.pdf" class="link-danger" target="_blank">CS 124: Metaheuristic Algorithms for a NP-complete Problem</a></p>
+                            <p>
+                                This experiment first provides a solution to the Number Partition problem using a dynamic programming approach. 
+                                Then the deterministic algorithm Karmarkar-Karp algorithm which uses a differencing method is discussed briefly, along with the different forms of solutions to the Number Partition problem and how to convert them into comparable forms. 
+                                We then introduce and describe the implementation details of the randomized heuristic algorithms used in this study, as well as with the Karmarkar-Karp algorithm and its randomized variant, BubbleSearch. 
+                                The randomized heuristic algorithms we investigate in this experiment include: Repeated Random, Hill Climbing, and Simulated Annealing, with further details being provided in later sections.
+                            </p>
+                        </li>
+                        <li>
+                            <p><a href="assets/cs51.pdf" class="link-danger" target="_blank">CS 51: MiniML</a></p>
                             <p>
                                 This project involves implementing a Turing-complete, metacircular interpreter for a subset of the OCaml programming language. 
                                 I have implemented both the substitution and dynamic environment models, along with several other extensions to the
@@ -99,7 +128,7 @@
                             </p>
                         </li>
                         <li>
-                            <p><a href="https://github.com/gz101/kafka-spark-ELK-pipeline/blob/main/README.md" class="link-danger">Harvard CS 88C: Big Data Streaming with the Kappa Architecture</a></p>
+                            <p><a href="https://github.com/gz101/kafka-spark-ELK-pipeline/blob/main/README.md" class="link-danger">CS 88C: Big Data Streaming with the Kappa Architecture</a></p>
                             <p>
                                 This project involved architecting and building a pipeline based on the Kappa Architecture, by Jay Kreps. 
                                 At a high level, raw data is ingested into a Kafka Broker, which acts as a messaging service for both producers and consumers. This Kafka service is supported by a Zookeeper instance.
@@ -112,7 +141,7 @@
                             </p>
                         </li>
                         <li>
-                            <p><a href="https://gz101h.shinyapps.io/sortingAlgos/" class="link-danger">Harvard MATH 151: Sorting Visualizer</a></p>
+                            <p><a href="https://gz101h.shinyapps.io/sortingAlgos/" class="link-danger">MATH 151: Sorting Visualizer</a></p>
                             <p>
                                 A sorting visualizer using the R Shiny framework as an introduction to sorting algorithms for students learning computer science. 
                                 Includes step-by-step visualizations for Selection Sort, Insertion Sort, Shell Sort, and Merge Sort.
